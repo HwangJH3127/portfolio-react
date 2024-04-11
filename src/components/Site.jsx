@@ -1,54 +1,6 @@
 import React from "react";
+import { siteText, siteTitle } from "../constants";
 
-const siteTitle = {
-  title: ["Site Coding", "나의 작업물"],
-};
-const siteText = [
-  {
-    text: ["Make", "site compliant", "vite"],
-    title: "VITE를 이용한 사이트 제작",
-    codeUrl: ["https://github.com/webstoryboy/port2023-vite"],
-    viewUrl: ["https://port2023-vite.netlify.app/"],
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, Vite",
-    ],
-  },
-  {
-    text: ["Make", "site compliant", "react.js"],
-    title: "REACT를 이용한 사이트 제작",
-    codeUrl: ["https://github.com/webstoryboy/port2023-react"],
-    viewUrl: ["https://port2023-react.netlify.app/"],
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, React",
-    ],
-  },
-  {
-    text: ["Make", "site compliant", "vue.js"],
-    title: "Vue를 이용한 사이트 제작",
-    codeUrl: ["https://github.com/webstoryboy/port2023-Vue"],
-    viewUrl: ["https://port2023-Vue.netlify.app/"],
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, Vue",
-    ],
-  },
-  {
-    text: ["Make", "site compliant", "next.js"],
-    title: "NEXT를 이용한 사이트 제작",
-    codeUrl: ["https://github.com/webstoryboy/port2023-next"],
-    viewUrl: ["https://port2023-next.netlify.app/"],
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : html5/css3, CSS Variable, Next",
-    ],
-  },
-];
 const Site = () => {
   return (
     <section id="site">

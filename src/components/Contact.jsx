@@ -1,13 +1,6 @@
 import React from "react";
+import { contactText, contactTitle } from "../constants";
 
-const contactTitle = {
-  title: "Contact",
-};
-
-const contactText = {
-  link: "mailto:whdgusdldl22@naver.com",
-  title: "mail : whdgusdldl22@naver.com",
-};
 const Contact = () => {
   return (
     <section id="contact">
